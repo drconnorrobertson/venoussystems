@@ -49,6 +49,20 @@
     { "source": "/home", "destination": "/", "permanent": true },
     { "source": "/products/tens", "destination": "/products/electrostimulation/", "permanent": true },
     { "source": "/products/nmes", "destination": "/products/electrostimulation/", "permanent": true },
-    { "source": "/products/dvt", "destination": "/products/dvt-prophylaxis/", "permanent": true }
+    { "source": "/products/dvt", "destination": "/products/dvt-prophylaxis/", "permanent": true },
+    { "source": "/wp-admin/:path*", "destination": "/", "permanent": true },
+    { "source": "/wp-content/:path*", "destination": "/", "permanent": true },
+    { "source": "/wp-includes/:path*", "destination": "/", "permanent": true },
+    { "source": "/wp-login.php", "destination": "/", "permanent": true },
+    { "source": "/wp-signup.php", "destination": "/", "permanent": true },
+    { "source": "/wp-cron.php", "destination": "/", "permanent": true },
+    { "source": "/xmlrpc.php", "destination": "/", "permanent": true },
+    { "source": "/wp-json/:path*", "destination": "/", "permanent": true },
+    { "source": "/feed/:path*", "destination": "/", "permanent": true },
+    { "source": "/comments/feed/:path*", "destination": "/", "permanent": true },
+    { "source": "/wp-trackback.php", "destination": "/", "permanent": true },
+    { "source": "/wp-config.php", "destination": "/", "permanent": true },
+    { "source": "/readme.html", "destination": "/", "permanent": true },
+    { "source": "/license.txt", "destination": "/", "permanent": true }
   ]
 }
